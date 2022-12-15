@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(196, 237, 244);
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;  
+}
+
+
+.name{
+    background: white;
+    margin-bottom: 50px;
+    transform: skewY(-5deg);
+}
+
+img{
+    display: block;
+    margin: auto;
+    transform: skewY(5deg);
+    border-radius: 50%;
+}
+
+.encabezado{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    transform: skewY(5deg);
+}
+
+.info1 .doc{
+    display: inline;
+    font-weight: bolder;
+}
+
+.info1 .doc1{
+    display: inline;
+}
+
+.card{
+    padding: 20px;
+    margin-right: 20px;
+    min-width: 100%;
+}
+
+.lista{
+    margin: 0;
+    padding: 0;
+}
+
+.lista > li{ 
+    list-style: none;
+
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill{
+    margin-bottom: 15px;
+}
+
+.skill .skill-description{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.skill .progress{
+    height: 10px;
+    background-color: #FFF;
+
+}
+
+.skill .progress.percentage{
+    background-color: #f6a737;
+}
+
+.idioma{
+    display: flex;
+    justify-content: space-between;
+}
+
+.idioma .stars{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.idioma .stars li{
+    list-style: none;
+}
+
+.idioma .stars li .fa-solid{
+    color: #f6a737;
+
+}
+
+@keyframes progress-bar{
+    o%{
+        width: 0;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0;
+    }
+}
+
+@media only screen and ( min-width: 768px){
+    .card{ 
+        min-width: 500px;
+    }
+    
+}
+
+
+
+
+
+
+
