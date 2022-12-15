@@ -108,7 +108,7 @@ img{
 }
 
 @keyframes progress-bar{
-    o%{
+    0%{
         width: 0;
     }
     50%{
