@@ -12,6 +12,7 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     border-bottom: 1px solid black;
     padding-bottom: 15px;  
+    text-align: center;
 }
 
 
@@ -35,6 +36,12 @@ img{
     transform: skewY(5deg);
 }
 
+.datos1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .info1 .doc{
     display: inline;
     font-weight: bolder;
@@ -42,6 +49,7 @@ img{
 
 .info1 .doc1{
     display: inline;
+    
 }
 
 .card{
